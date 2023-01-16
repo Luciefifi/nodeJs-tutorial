@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_tutorial",
+  "version": "1.0.0",
+  "description": "nodeJs tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": " nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luciefifi/nodeJs-tutorial.git"
+  },
+  "author": "Lucie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luciefifi/nodeJs-tutorial/issues"
+  },
+  "homepage": "https://github.com/Luciefifi/nodeJs-tutorial#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
+  }
+}
