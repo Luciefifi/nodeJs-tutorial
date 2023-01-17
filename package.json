@@ -2,10 +2,10 @@
   "name": "nodejs_tutorial",
   "version": "1.0.0",
   "description": "nodeJs tutorial",
-  "main": "server.js",
+  "main": "servers.js",
   "scripts": {
-    "start": "node server",
-    "dev": " nodemon server"
+    "start": "node servers",
+    "dev": " nodemon servers"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "date-fns": "^2.29.3",
+    "express": "^4.18.2",
     "uuid": "^9.0.0"
   }
 }
